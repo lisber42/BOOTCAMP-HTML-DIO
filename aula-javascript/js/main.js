@@ -1,5 +1,45 @@
+//CONDICIONAIS, LOOP, DATE
+/************************************************************* */
+
+/*DATE
+
+var d= new Date();
+//alert(d.getMonth()+1); // getMoth adicionar mas +1.
+//alert(d.getDate()); // getDate mostra o dia atual
+//alert(d.getMinutes()); // getMinutes mostra os minutos.
+//alert(d.getSeconds()); // mostra segundos
+//alert(d.getFullYear()); // mostra o ano .
+alert(d.getHours()); // mostra ahora atual
+*/
+
+/*IF-ELSE
+var idade= prompt ("Qual e sua idade?");// comando PROMPT => CRIA CAIXA DE DIALOGO PARA INSERIR TEXT ALMACERNAR EM VARIAVEL
+//SE idade for maior ou igual a 18,executa o comando alert (maior de idade)
+if (idade >= 18){ 
+    alert("maior de idade");
+}else{
+    alert("menor de idade");
+};
+*/
+
+// LAÇOS DE REPETIÇÃO (LOOP)
+/*FOR
+var count;//no FOR se declara variavel  e se atribui o valor inicial dentro da estrutura for. 
+for( count=0;count < 5; count++){
+    alert(count);
+}
+*/
 
 
+/* WHILE
+var count = 0;
+//while enquanto var count for menor ou igual a 5 o ciclo se repite
+while (count <= 5) {
+    console.log(count);
+    alert(count);
+    count ++;// cada repetição adicona mas 1 na var count
+};
+*/
 
 
 //DICIONARIOS
