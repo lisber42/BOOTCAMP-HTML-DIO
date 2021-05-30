@@ -4,9 +4,19 @@
         <title> Minha pagina</title>
         <meta charset="utf-8">
         <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/main2.js"></script>
     </head>
     
-    <body>
-       <h1>Hello Word!!!!</h1>     
+    <body onload="load()">
+       <h1>Hello Word!!!!</h1>
+       <button type="button" onclick="botao()">Clique Aqui</button>
+       <p id="agradecimento" onclick= "redirecionar()"></p>
+       <p  onmouseover= "trocar(this)" onmouseout=" voltar(this)">Passe o mouse Aqui</p>
+       <p  onmouseover= "trocar(this)" onmouseout=" voltar(this)">Passe o mouse Aqui</p>
+       <select onchange="funcaoChange(this)">
+           <option valeus="1">Valor 1</option>
+           <option valeus="2">Valor 2</option>
+           <option valeus="3">valor 3</option>
+       </select>    
     </body>
 </html>
