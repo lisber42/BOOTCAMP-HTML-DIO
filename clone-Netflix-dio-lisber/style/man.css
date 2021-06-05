@@ -13,7 +13,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Time New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
     
 }
@@ -52,7 +52,7 @@ header nav a.hover{
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-thrones.png');
     
     
-    height: 500px;
+    height: 400px;
     background-size: cover;
 
     display: flex;
@@ -105,4 +105,8 @@ header nav a.hover{
     height: 10%;
     width: 10%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
